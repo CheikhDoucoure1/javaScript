@@ -1,4 +1,4 @@
-const output = fizzBuzz(9);
+const output = fizzBuzz(input);
 
 function fizzBuzz(input ){
     if (typeof input !== 'number') return "not a number";
