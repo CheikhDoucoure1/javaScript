@@ -1,0 +1,12 @@
+const array = [0,null,undefined,1,2];
+function countTruthy(array){
+    let numberofTruthy = 0;
+    for (let value of array){
+        if(value)
+         numberofTruthy++;
+    }
+
+        return numberofTruthy;
+
+}
+console.log(countTruthy(array));
